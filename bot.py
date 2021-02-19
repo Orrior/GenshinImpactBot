@@ -5,7 +5,7 @@ import discord
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = 'ODEyMDc4NjE3NzQzNDU4MzE2.YC7hJg.3OQZCkSlO67_Hm2FsEeCN2XmJLU'
+TOKEN = 'TOKEN_HERE'
 GUILD = 'Замес'
 
 client = discord.Client()
