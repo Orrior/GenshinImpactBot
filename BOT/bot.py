@@ -5,7 +5,7 @@ import discord
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = 'TOKEN_HERE'
+TOKEN = 'Nope'
 GUILD = 'Замес'
 
 client = discord.Client()
@@ -49,9 +49,7 @@ async def on_message(message):
 
     if msg == '!halp':
         mainmessage = "Готов стать калькулятором вашей хуйни\n" \
-                      "Бля, вводите данные так: \n!calc Attack,CritChance(коэффициент нужен, долбоёб)," \
-                      "Critdamage(Тут тоже коэффициент бляхамуха, не ебёт)\n" \
-                      "!calc атака,критшанс,критурон\n```"
+                      "!calc атака,критшанс,критурон\n!market - цена на хуйню из бдо\nАртём - пидорас"
 
         await message.channel.send(f"```\n{mainmessage}\n```")
 
